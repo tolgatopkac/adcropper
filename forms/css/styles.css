@@ -1,0 +1,26 @@
+.form-group a {
+  font-size: 1rem;
+  color: #9c346b;
+  text-align: right;
+  text-decoration: none;
+}
+
+.form-group p {
+  font-size: 0.875rem;
+  color: #9c346b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label span {
+  color: #9c346b;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.form-group .remember-me {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
