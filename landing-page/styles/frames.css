@@ -67,35 +67,35 @@
   @keyframes walkDownStairs {
     0% {
       left: 12%;
-      bottom: 30%;
-    }
-    20% {
-      left: 16%;
       bottom: 28%;
     }
-    30% {
+    20% {
       left: 18%;
-      bottom: 24%;
+      bottom: 26%;
     }
     40% {
       left: 20%;
+      bottom: 24%;
+    }
+    60% {
+      left: 22%;
       bottom: 20%;
     }
-    50% {
+    80% {
       left: 22%;
-      bottom: 16%;
+      bottom: 18%;
     }
     60% {
       left: 24%;
-      bottom: 12%;
+      bottom: 16%;
     }
-    70% {
+    80% {
       left: 30%;
-      bottom: 8%;
+      bottom: 16%;
     }
     100% {
       left: 36%;
-      bottom: 8%;
+      bottom: 16%;
     }
   }
 }
