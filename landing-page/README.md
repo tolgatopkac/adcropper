@@ -1,7 +1,5 @@
 # AdCropper - Engaging Landing Page with Animated Characters
 
-# AdCropper - Engaging Landing Page with Animated Characters
-
 ## Tech Stack
 
 - **HTML**: Structure and content of the web page.
