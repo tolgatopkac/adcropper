@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       setTimeout(() => {
         showCoins();
-      }, 5000);
+      }, 2000);
     }
   });
 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     coins.forEach((coin) => {
-      coin.style.opacity = 1;
+      coin.classList.add("coin-animation");
     });
   }
 });
