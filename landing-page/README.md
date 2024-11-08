@@ -30,11 +30,11 @@ The landing page is designed to be responsive and looks great on various devices
 
 ### iPhone 14 Pro Max (430x1000)
 
-![iPhone 14 Pro Max](./tests/iPhone-14-Pro-Max-430x1000.png)
+![iPhone 14 Pro Max](./tests/iPhone-14-Pro-Max-430x979.png)
 
 ### iPhone 14 Pro (393x990)
 
-![iPhone 14 Pro](./tests/iPhone-14-Pro-393x990.png)
+![iPhone 14 Pro](./tests/iPhone-14-Pro-393x933.png)
 
 ### iPad Air (820x1180)
 
