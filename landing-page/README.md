@@ -2,7 +2,7 @@
 
 ## Live Version
 
-Check out the live version of the landing page [here](https://harmonious-empanada-29c7b8.netlify.app/).
+Check out the live version of the landing page [here](https://fantastic-klepon-66e596.netlify.app/).
 
 ## Tech Stack
 
