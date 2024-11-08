@@ -1,5 +1,9 @@
 # AdCropper - Engaging Landing Page with Animated Characters
 
+## Live Version
+
+Check out the live version of the landing page [here](https://harmonious-empanada-29c7b8.netlify.app/).
+
 ## Tech Stack
 
 - **HTML**: Structure and content of the web page.
