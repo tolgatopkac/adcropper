@@ -1,0 +1,122 @@
+body {
+  background-color: #753c77;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.section-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 50vh;
+  position: relative;
+}
+
+.section-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.background-desktop {
+  display: block;
+  width: 100%;
+}
+.background-mobile {
+  display: none;
+}
+
+.plane {
+  position: absolute;
+  width: 80%;
+  right: -40%;
+  bottom: -5%;
+  animation: flyFromRight 3s ease-out forwards;
+}
+
+.plane-door {
+  position: absolute;
+  right: 8%;
+  bottom: 19%;
+  width: 9%;
+  animation: flyFromRight 3s ease-out forwards,
+    openDoor 1s ease-in-out 3s forwards;
+}
+
+.person-manu {
+  position: absolute;
+  opacity: 0;
+  /*   opacity: 1; */
+  width: 9%;
+  left: 26%;
+  bottom: 20%;
+  object-fit: cover;
+  animation: showMamu 1s ease-in-out 4s forwards,
+    walkDownStairs 4s ease-in-out 5s forwards,
+    growManu 1s ease-in-out 9s forwards,
+    jumpNormalManu 1s ease-in-out 10s forwards;
+}
+
+.king-manu {
+  position: absolute;
+  width: 9%;
+  transform: scale(2.2);
+  left: 40%;
+  bottom: 22%;
+  object-fit: cover;
+  animation: showMamu 1s ease-in-out 11s forwards,
+    jumpKingManu 1s ease-in-out 1s infinite;
+}
+
+.confetti-container {
+  width: 100%;
+  height: 50vh;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+.confetti {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  animation: confettiFall 5s linear infinite;
+  animation-delay: 13s;
+}
+
+.coins {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  animation: coinsFall 5s linear infinite;
+  animation-delay: 15s;
+}
+
+.delay1 {
+  animation-delay: 1s;
+}
+
+.delay2 {
+  animation-delay: 2s;
+}
+
+.delay3 {
+  animation-delay: 3s;
+}
+
+.coin {
+  width: 5%;
+  animation: coinsFall 5s linear infinite;
+  animation-delay: 14s;
+  opacity: 0;
+}
